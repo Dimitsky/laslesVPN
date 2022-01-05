@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script defer src="js/index.js"></script>
+  <title>LaslesVPN</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__logo logo-header">
+        <a class="logo-header__link" href="#">Lasles<span>VPN</span></a>
+        <svg class="logo-header__img" class="logo-header__img" viewBox="0 0 35 37" style="fill: #F53838">
+          <use href="img/defs.svg#logo"></use>
+        </svg>
+      </div>
+      <nav class="header__nav nav-header">
+        <ul class="nav-header__list list-reset">
+          <li class="nav-header__item"><a class="nav-header__link" href="#">About</a></li>
+          <li class="nav-header__item"><a class="nav-header__link" href="#">Features</a></li>
+          <li class="nav-header__item"><a class="nav-header__link" href="#">Pricing</a></li>
+          <li class="nav-header__item"><a class="nav-header__link" href="#">Testimonials</a></li>
+          <li class="nav-header__item"><a class="nav-header__link" href="#">Help</a></li>
+        </ul>
+      </nav>
+      <div class="header__accont account-header">
+        <a class="account-header__link account-header__link--sign-in button-reset" href="#">Sign&nbsp;In</a>
+        <a class="account-header__link account-header__link--sign-up button-reset" href="#">Sign&nbsp;Up</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__body">
+          <h1 class="hero__title">Want anything to be easy with <span class="bold">LaslesVPN</span>.</h1>
+          <p class="hero__desc">
+            Provide a network for all your needs with ease and fun using <span class="text-bold">LaslesVPN</span> discover interesting features from us.
+          </p>
+          <button class="hero__button-start button-reset">Get Started</button>
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+      <div class="container stats__container">
+        <ul class="stats__list list-stats list-reset">
+          <li class="list-stats__item">
+            <div class="list-stats__img-wrap">
+              <svg class="list-stats__img" viewBox="0 0 55 56" style="width: 55px; height: 55px;">
+                <use href="img/defs.svg#icon-user"></use>
+              </svg>
+            </div>
+            <div class="list-stats__desc-wrap">
+              <span class="list-stats__title">90+</span>
+              <span class="list-stats__desc">Users</span>
+            </div>
+          </li>
+          <li class="list-stats__item">
+            <div class="list-stats__img-wrap">
+              <svg class="list-stats__img" viewBox="0 0 55 56" style="width: 55px; height: 55px;">
+                <use href="img/defs.svg#icon-map"></use>
+              </svg>
+            </div>
+            <div class="list-stats__desc-wrap">
+              <span class="list-stats__title">30+</span>
+              <span class="list-stats__desc">Locations</span>
+            </div>
+          </li>
+          <li class="list-stats__item">
+            <div class="list-stats__img-wrap">
+              <svg class="list-stats__img" viewBox="0 0 55 56" style="width: 55px; height: 55px;">
+                <use href="img/defs.svg#icon-server"></use>
+              </svg>
+            </div>
+            <div class="list-stats__desc-wrap">
+              <span class="list-stats__title">50+</span>
+              <span class="list-stats__desc">Servers</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container features__container">
+        <div class="features__body">
+          <h2 class="title features__title">We Provide Many Features You Can Use</h2>
+          <p class="features__desc">
+            You can explore the features that we provide with fun and have their own functions each feature.
+          </p>
+          <ul class="features__list list-reset">
+            <li class="features__item">
+              Powerfull online protection.
+            </li>
+            <li class="features__item">
+              Internet without borders.
+            </li>
+            <li class="features__item">
+              Supercharged VPN
+            </li>
+            <li class="features__item">
+              No specific time limits.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="plan">
+      <div class="container plan__container">
+        <h2 class="title plan__title">Choose Your Plan</h2>
+        <p class="plan__desc">
+          Let's choose the package that is best for you and explore it happily and cheerfully.
+        </p>
+        <ul class="plan__list list-reset">
+          <li class="plan__item card-plan">
+            <img class="card-plan__img" src="img/plan/plan-1.svg" alt="" aria-hidden="true">
+            <h3 class="card-plan__title">Free Plan</h3>
+            <ul class="card-plan__list list-reset">
+              <li class="card-plan__item">Unlimited Bandwitch</li>
+              <li class="card-plan__item">Encrypted Connection</li>
+              <li class="card-plan__item">No Traffic Logs</li>
+              <li class="card-plan__item">Works on All Devices</li>
+            </ul>
+            <h3 class="card-plan__price">Free</h3>
+            <a class="card-plan__select" href="#">Select</a>
+          </li>
+          <li class="plan__item card-plan">
+            <img class="card-plan__img" src="img/plan/plan-2.svg" alt="" aria-hidden="true">
+            <h3 class="card-plan__title">Standard Plan</h3>
+            <ul class="card-plan__list list-reset">
+              <li class="card-plan__item">Unlimited Bandwitch</li>
+              <li class="card-plan__item">Encrypted Connection</li>
+              <li class="card-plan__item">Yes Traffic Logs</li>
+              <li class="card-plan__item">Works on All Devices</li>
+              <li class="card-plan__item">Connect Anyware</li>
+            </ul>
+            <h3 class="card-plan__price">$9 <span class="card-plan__price--w400">/ mo</span></h3>
+            <a class="card-plan__select" href="#">Select</a>
+          </li>
+          <li class="plan__item card-plan">
+            <img class="card-plan__img" src="img/plan/plan-3.svg" alt="" aria-hidden="true">
+            <h3 class="card-plan__title">Premium Plan</h3>
+            <ul class="card-plan__list list-reset">
+              <li class="card-plan__item">Unlimited Bandwitch</li>
+              <li class="card-plan__item">Encrypted Connection</li>
+              <li class="card-plan__item">Yes Traffic Logs</li>
+              <li class="card-plan__item">Works on All Devices</li>
+              <li class="card-plan__item">Connect Anyware</li>
+              <li class="card-plan__item">Get New Features</li>
+            </ul>
+            <h3 class="card-plan__price">$12 <span class="card-plan__price--w400">/ mo</span></h3>
+            <a class="card-plan__select" href="#">Select</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="network">
+      <div class="container network__container">
+        <h2 class="title network__title">Huge Global Network of&nbsp;Fast&nbsp;VPN</h2>
+        <p class="network__desc">
+          See <span class="text-bold">LaslesVPN</span> everywhere to make it easier for you when you move locations.
+        </p>
+        <div class="network__map" id="map" style="width: 93%; height: 538px"></div>
+        <ul class="network__companies-list list-reset">
+          <li class="network__companies-item">
+            <img class="network__img network__img--netflix" src="img/network/netflix.png" alt="" aria-hidden="true">
+          </li>
+          <li class="network__companies-item">
+            <img class="network__img network__img--reddit" src="img/network/reddit.png" alt="" aria-hidden="true">
+          </li>
+          <li class="network__companies-item">
+            <img class="network__img network__img--amazon" src="img/network/amazon.png" alt="" aria-hidden="true">
+          </li>
+          <li class="network__companies-item">
+            <img class="network__img network__img--discord" src="img/network/discord.png" alt="" aria-hidden="true">
+          </li>
+          <li class="network__companies-item">
+            <img class="network__img network__img--spotify" src="img/network/spotify.png" alt="" aria-hidden="true">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container reviews__container">
+        <h2 class="reviews__title title">Trusted by Thousands of Happy&nbsp;Customer</h2>
+        <p class="reviews__desc">
+          These are the stories of our customers who have joined us with great pleasure when using this crazy feature.
+        </p>
+        <div class="swiper reviews__swiper swiper-reviews">
+          <div class="swiper-wrapper swiper-reviews__wrapper">
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-1.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Viezh Robert</h3>
+                        <span class="info-customer__place">Warsaw, Poland</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="info-customer__row">
+                    <p class="swiper-reviews__desc">
+                      “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-2.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Yessica Christy</h3>
+                        <span class="info-customer__place">Shanxi, China</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="swiper-reviews__row">
+                    <p class="swiper-reviews__desc">
+                      “I like it because I like to travel far and still can connect with high speed.”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-3.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Kim Young Jou</h3>
+                        <span class="info-customer__place">Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="info-customer__row">
+                    <p class="swiper-reviews__desc">
+                      “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-3.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Kim Young Jou</h3>
+                        <span class="info-customer__place">Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="info-customer__row">
+                    <p class="swiper-reviews__desc">
+                      “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-3.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Kim Young Jou</h3>
+                        <span class="info-customer__place">Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="info-customer__row">
+                    <p class="swiper-reviews__desc">
+                      “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-3.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Kim Young Jou</h3>
+                        <span class="info-customer__place">Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="info-customer__row">
+                    <p class="swiper-reviews__desc">
+                      “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-3.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Kim Young Jou</h3>
+                        <span class="info-customer__place">Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="info-customer__row">
+                    <p class="swiper-reviews__desc">
+                      “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-reviews__slide customer">
+              <div class="customer__info info-customer">
+                <div class="info-customer__body">
+                  <div class="info-customer__row">
+                    <div class="info-customer__col">
+                      <img class="info-customer__img" src="img/reviews/customer-3.png" alt="Фотография клиента">
+                      <div class="info-customer__wrap">
+                        <h3 class="info-customer__name">Kim Young Jou</h3>
+                        <span class="info-customer__place">Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="info-customer__col">
+                      <span class="info-customer__rating-val">4.5</span>
+                      <svg class="info-customer__rating-img" viewBox="0 0 16 17" style="width: 16px; height: 17px;">
+                        <use href="img/defs.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="info-customer__row">
+                    <p class="swiper-reviews__desc">
+                      “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-reviews__pagination"></div>
+          <div class="swiper-reviews__btn-wrap">
+            <div class="swiper-button-prev swiper-reviews__btn swiper-reviews__btn--prev">
+              <svg class="swiper-reviews__btn-icon swiper-reviews__btn-icon--prev" viewBox="0 0 20 19">
+                <use href="img/defs.svg#icon-array"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next swiper-reviews__btn swiper-reviews__btn--next">
+              <svg class="swiper-reviews__btn-icon swiper-reviews__btn-icon--next" viewBox="0 0 20 19">
+                <use href="img/defs.svg#icon-array"></use>
+              </svg>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container subscribe__container">
+        <div class="subscribe__wrap">
+          <h2 class="title subscribe__title">Subscribe Now for Get&nbsp;Special&nbsp;Features!</h2>
+          <p class="subscribe__desc">
+            Let's subscribe with us and find the fun.
+          </p>
+        </div>
+        <button class="subscribe__btn button-reset button button--bg">Subscribe Now</button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo logo-footer">
+          <a class="logo-footer__link" href="#">Lasles<span>VPN</span></a>
+          <svg class="logo-footer__img" viewBox="0 0 35 37" style="fill: #F53838; width: 35px; height: 37px;">
+            <use xlink:href="img/defs.svg#logo"></use>
+          </svg>
+        </div>
+        <p class="footer__desc">
+          <span class="text-bold">LaslesVPN</span> is a private virtual network that has unique features and has high security.
+        </p>
+        <ul class="socials socials__list list-reset">
+          <li class="socials__item">
+            <a class="socials__link" href="http://www.facebook.com">
+              <svg class="socials__icon socials__icon--fb" viewBox="0 0 33.6 33.6" style="fill: #F53838; width: 33.6px; height: 33.6px">
+                <use href="img/defs.svg#icon-fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="http://www.twitter.com">
+              <svg class="socials__icon socials__icon--twitter" viewBox="0 0 33.6 33.6" style="fill: #F53838; width: 33.6px; height: 33.6px">
+                <use href="img/defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="http://www.instagram.com">
+              <svg class="socials__icon socials__icon--instagram" viewBox="0 0 33.6 33.6" style="fill: #F53838; width: 33.6px; height: 33.6px">
+                <use href="img/defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <span class="footer__copyright">©2020Lasles<span class="text-bold">VPN</span></span>
+      </div>
+      <div class="footer__col">
+        <h2 class="footer__title title">Product</h2>
+        <ul class="footer__link-list list-reset">
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Download</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Pricing</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Locations</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Server</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Countries</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2 class="footer__title title">Engage</h2>
+        <ul class="footer__link-list list-reset">
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">LaslesVPN ?</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">FAQ</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Tutorials</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">About Us</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Terms of Service</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2 class="footer__title title">Earn Money</h2>
+        <ul class="footer__link-list list-reset">
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Affiliate</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="#">Become Partner</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
